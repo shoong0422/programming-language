@@ -1,0 +1,81 @@
+body, h1, h2,h3, p, ul{
+	margin:0;
+	padding:0;
+}
+li{ 
+    list-style-type:none;
+ }
+h1, h2, h3{ 
+	font-size: 100%;
+	font-weight: normal;
+}
+
+body{
+	
+	background-color:#111;
+	color:#999;
+}
+.portrait{
+	background-image:url("java.jpg");
+	background-size:cover;
+	background-position:center;
+    padding-top:56.25%; 
+}
+.name-title{
+	font-size:30px;
+	line-height:1.3em;
+	color:white;
+	margin-bottom:40px;
+}
+
+.name{
+	font-size:1.3em;
+	font-family:"Comic Sans MS", "Courier New";
+	color:deeppink;
+
+}
+.profile{
+	padding:5%;
+}
+
+.profile p {
+	font-size:1.1em;
+}
+.profile-section {
+	padding-bottom:7%;
+	margin: 20px 0px;
+}
+.profile-section h2{
+	border-top: 3px solid;
+	font-size:1.5em;
+	font-family:"Trebuchet MS", Ebrima;
+	color:orangered;
+	margin-bottom:20px;
+}
+.timeline{
+	font-size:1.1em;
+	color:#666;
+}
+
+.timeline li{
+	padding-bottom: 2px;
+}
+.timeline li h3{
+	color:orange;
+	border-left:3px solid orange;
+	padding-left:10px;
+
+}
+@media(min-width:768px){
+	.portrait{
+			position:fixed;
+			left:0;
+			top:0;
+			width:60vw;
+			height:100vh;
+			padding:0;
+		}
+	.profile{
+		margin-left:60vw;
+		}
+}
